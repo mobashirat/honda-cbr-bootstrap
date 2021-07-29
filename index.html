@@ -37,6 +37,36 @@
                     <img src="images/header-bike.png" class="img-fluid" alt="...">
                 </div>
             </div>
+
+
+            <!-- modal -->
+
+            <!-- Button trigger modal -->
+            <button type="button" class="text-light mb-5 ms-3 modal-col" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Purchase
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fw-bold" id="exampleModalLabel">Are you sure</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>If you want to buy it please click yes.You will get all the informations.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Yes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
 
@@ -72,15 +102,17 @@
                 </div>
 
             </div>
-        </section class="container">
+        </section>
+
         <div class="d-flex justify-content-center mt-5">
             <h1 class="fw-bold">Happy <span>Clients Says,</span></h1>
         </div>
 
         </section>
+
         <section class="container">
 
-            <div class="row row-cols-1 row-cols-md-3 g-5 mt-4">
+            <div class="row row-cols-1 row-cols-md-2 g-5 mt-4">
                 <div class="col">
 
                     <div class="card h-100">
@@ -180,17 +212,103 @@
             </div>
         </section>
 
-        <section class="container mt-5">
+        <section class="container my-5">
             <h1 class="fw-bold text-center">Frequently Asked <span>Questions</span></h1>
 
-            <div class="row">
-                <div class="col-lg-5">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-5 mt-5 ps-1 frequent-questions">
                     <img src="images/faq.png" alt="">
+                </div>
+
+                <div class="col-lg-7 mt-5">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item m-4">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What are the most important thing I should know about riding a bike
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Safety is the first priority.You should always check your bike before
+                                        ride.Secondly,you
+                                        should always follow the traffic rules,signals and signs.Most importently not
+                                        trying to overtake.Lastly,you have to be focused and careful about riding a
+                                        bike.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item m-4">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    How can I tell if my helmet is old and need new one
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        We are always here for you.If you need a new helmet you can contact us through
+                                        our given address or number.We have brand new helmet for you.Just check it out.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item m-4">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    My bike is in storage is it safe to ride
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Yes,But it will be good if you check your bike functions before ride
+                                        it.Especially
+                                        your break system.Sometimes, it shows some internal problems.So,It's better not
+                                        to
+                                        take any risk.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item m-4">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    What rules should I follow when riding a bike
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        “Ride predictably: no sudden movements, no unexpected movements,”It’s important
+                                        that you practice good safety habits on the road. As a driver, the safety of
+                                        everyone on the road is up to you too.Every ride, people should be wearing
+                                        helmets.So,Always wear helmets and try to be safe.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
 
         </section>
+
+
 
     </main>
     <footer>

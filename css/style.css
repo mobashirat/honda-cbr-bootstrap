@@ -1,9 +1,14 @@
 body {
     font-family: 'Poppins', sans-serif;
+    font-size: 25px;
 }
 .honda-info {
     background-color:#264653;
     ;
+}
+.modal-col{
+    background: #E76F51;
+
 }
 .bike-collection  {
     color: #E76F51;
@@ -20,7 +25,7 @@ body {
 .clients-head {
     color: #E76F51;
 }
-span {
+span  {
     color: #E76F51; 
 }
 .user img {
@@ -35,6 +40,10 @@ span {
 .name-color {
     color:  #23A6F0;
 
+}
+.frequent-questions img {
+    width:431px;
+    height: 423px;
 }
 
 
