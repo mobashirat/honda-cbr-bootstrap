@@ -1,0 +1,40 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.honda-info {
+    background-color:#264653;
+    ;
+}
+.bike-collection  {
+    color: #E76F51;
+    ;
+   
+}
+.horizontal-line {
+    border: 1px solid #E76F51;
+  
+}
+.img-grayscale {
+    filter:grayscale(100%);
+}
+.clients-head {
+    color: #E76F51;
+}
+span {
+    color: #E76F51; 
+}
+.user img {
+   
+    width: 149px;
+    height:149px;
+}
+.star-color {
+    color:  #E77C40;
+
+}
+.name-color {
+    color:  #23A6F0;
+
+}
+
+
